@@ -1,0 +1,36 @@
+header {
+    padding-top: 79px;
+    padding-bottom: 172px;
+}
+
+.header__body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 140px;
+
+    ul {
+        list-style: none;
+
+        display: flex;
+        flex-direction: row;
+        gap: 42px;
+
+        font-size: 12px;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .action__links {
+        display: flex;
+        flex-direction: row;
+        gap: 38px;
+    }
+}

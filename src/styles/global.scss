@@ -1,0 +1,25 @@
+:root {
+    --body-bg: #302C42;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--body-bg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

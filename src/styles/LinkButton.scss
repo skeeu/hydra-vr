@@ -1,0 +1,24 @@
+.link__button {
+    display: inline-block;
+    min-width: 154px;
+
+    border-radius: 40px;
+    border: 2px solid #fff;
+
+    padding: 17px 38px;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    &.primary {
+        background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+        border: none;
+
+        color: #343045;
+    }
+}
